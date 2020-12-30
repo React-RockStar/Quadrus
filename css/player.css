@@ -1,0 +1,238 @@
+body {
+    height: 100%;
+    background-color: #1f2127;
+    font-family: arial, sans-serif;
+}
+
+.container {
+    width: 100%;
+    height: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.qs-player-container {
+    margin: 0;
+    padding: 0;
+    width: 100%;
+    height: 100%;
+    margin: 0 auto;
+    position: relative;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    background-color: #292a31;
+}
+
+.qs-monitor-container {
+    margin: 0;
+    padding: 0;
+    align-self: center;
+    overflow: hidden;
+    pointer-events: none;
+    min-width: 240px;
+    width: 100%;
+    height: 100%;
+    position: relative;
+    display: flex;
+    align-items: center;
+}
+.qs-monitor {
+    margin: 0;
+    padding: 0;
+    pointer-events: all;
+    display: flex;
+    background-color: #101010;
+    min-width: 240px;
+    min-height: 135px;
+    margin: auto;
+}
+
+.qs-player-toolbar {
+    height: 40px;
+    padding-left: 8px;
+    padding-right: 8px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.qs-player-caption {
+    width: 50%;
+    height: 24px;
+    line-height: 24px;
+    font-size: 12px;
+    color: #b2b5c9;
+    border-bottom: 1px solid #b2b5c9;
+    /*overflow: hidden;*/
+    overflow: hidden;
+    white-space: nowrap;
+    text-overflow: ellipsis;
+}
+
+.qs-player-tc {
+    width: 120px;
+    height: 24px;
+    line-height: 24px;
+    font-size: 16px;
+    background-color: #343f56;
+    color: white;
+    font-family: Courier;
+    text-align: center;
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    user-select: none;
+}
+
+.qs-player-slider-container-main {
+    position: relative;
+    padding-left: 10px;
+    padding-right: 10px;
+    background: #314057
+}
+
+.qs-player-slider-thumb {
+    width: 10px;
+    height: 10px;
+    position: absolute;
+    bottom: 0;
+    background-color: #b2b5c9;
+}
+
+    .qs-player-slider-thumb.left {
+        left: 0;
+    }
+
+    .qs-player-slider-thumb.right {
+        right: 0;
+    }
+
+.qs-player-slider-container {
+    position: relative;
+    height: 30px;
+}
+
+.qs-player-markers {
+    position: absolute;
+    width: 100%;
+    top: 0;
+    height: 20px;
+}
+
+.qs-player-cache {
+    position: absolute;
+    width: 100%;
+    bottom: 0;
+    height: 10px;
+    background: #6d707c;
+}
+
+.qs-player-slider-range {
+    position: absolute;
+    -webkit-appearance: none; /* Override default look */
+    outline: none;
+    margin: 0px 0px 0px 0px;
+    -webkit-appearance: none;
+    width: 100%;
+    height: 30px;
+    background-color: transparent;
+}
+
+    .qs-player-slider-range::-webkit-slider-thumb {
+        -webkit-appearance: none; /* Override default look */
+        width: 2px;
+        height: 30px;
+        background: #1596d4;
+        /*margin-top: -20px;*/
+    }
+
+.qs-player-buttons {
+    height: 40px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin: 0;
+    position: relative;
+    align-items: stretch;
+    display: flex;
+    flex-direction: row;
+}
+
+.qs-player-button {
+    border: 0;
+    background: transparent;
+    color: #b2b5c9;
+    width: 24px;
+    height: 24px;
+    padding: 0;
+    margin: auto 0px;
+    text-align: center;
+    cursor: pointer;
+    outline: none;
+    display: inline-block;
+    font-family: 'quadrus';
+    font-style: normal;
+    font-size: 16pt;
+    font-weight: normal;
+    line-height: 1;
+    -webkit-font-smoothing: antialiased;
+    -moz-osx-font-smoothing: grayscale;
+}
+
+    .qs-player-button.wide {
+        max-width: 54px;
+        min-width: 45px;
+        font-size: 12pt;
+    }
+
+    .qs-player-button:hover {
+        color: white;
+    }
+
+    .qs-player-button:disabled {
+        color: #6e6f7d;
+    }
+
+
+
+.x-video-slider {
+    position: relative;
+    height: 30px;
+    background: #6d707d;
+}
+
+
+
+progress {
+    position: absolute;
+    width: 100%;
+    height: 10px;
+    bottom: 0;
+    -webkit-appearance: none;
+    -moz-appearance: none;
+    appearance: none;
+    border-radius: 0px;
+    pointer-events: none;
+}
+
+    progress::-webkit-progress-value {
+        width: 2px;
+        height: 10px;
+        color: red;
+        border-radius: 0px;
+    }
+
+
+
+button {
+    cursor: pointer;
+    position: relative;
+    margin-right: 7px;
+    font-size: 12px;
+    padding: 3px;
+    border: none;
+    outline: none;
+    background-color: transparent;
+}

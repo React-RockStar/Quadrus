@@ -1,0 +1,49 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <link rel="stylesheet" href="/webix/codebase/webix.css" type="text/css" charset="utf-8">
+    <script src="/webix/codebase/webix.js" type="text/javascript" charset="utf-8"></script>
+    <title>Quadrus MediaDirector</title>
+    <link rel="stylesheet" href="https://cdn.materialdesignicons.com/5.4.55/css/materialdesignicons.css" type="text/css" charset="utf-8">
+    <link rel="stylesheet" href="/css/quadrus.css" type="text/css">
+    <link rel="stylesheet" href="/css/player.css" type="text/css">
+    <link rel="stylesheet" href="/css/style.css" type="text/css">
+</head>
+<body>
+
+    <div class="qs-player-container" id="qid-player-container">
+        <div class="qs-player-toolbar">
+            <div class="qs-player-caption" id="qid-player-name"></div>
+            <input type="button" class="qs-player-button" id="qid-player-refresh" value="A" />
+        </div>
+        <div class="qs-player-toolbar">
+            <div class="qs-player-tc" id="qid-player-tc">--:--:--:--</div>
+        </div>
+        <div class="qs-monitor-container" id="qid-monitor-container">
+           <video class="qs-monitor" id="qid-monitor" />
+        </div>
+        <div class="qs-player-slider-container-main">
+            <div class="qs-player-slider-thumb left"></div>
+            <div class="qs-player-slider-container">
+                <div class="qs-player-markers"></div>
+                <canvas class="qs-player-cache" id="qid-player-canvas"></canvas>
+                <input type="range" class="qs-player-slider-range" id="qid-player-slider" />
+            </div>
+            <div class="qs-player-slider-thumb right"></div>
+        </div>
+        <div class="qs-player-buttons">
+            <div class"button"></div>
+            <input type="button" class="qs-player-button wide" id="qid-player-home" value="E" />
+            <input type="button" class="qs-player-button wide" id="qid-player-frameb" value="B" />
+            <input type="button" class="qs-player-button wide" id="qid-player-play" value="C" style="font-size:10pt" />
+            <input type="button" class="qs-player-button wide" id="qid-player-framef" value="D" />
+            <input type="button" class="qs-player-button wide" id="qid-player-end" value="F" />
+            <div class"button"></div>
+        </div>
+    </div>
+
+    <script src="/js/smpte-timecode.js"></script>
+    <script src="/js/player.js"></script>
+    <script src="/js/main.js"></script>
+</body>
+</html>

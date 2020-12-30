@@ -1,0 +1,15 @@
+<?xml version="1.0"?>
+
+
+    <svg id="mainsvg" viewBox="0 0 18 18"
+         xmlns="http://www.w3.org/2000/svg">
+<g transform="translate(0 0)" opacity="1">
+    <!-- Generator: Sketch 53.2 (72643) - https://sketchapp.com -->
+    <title>Icons/Asset Editor/play</title>
+    <desc>Created with Sketch.</desc>
+    <g id="Icons/Asset-Editor/play" stroke="none" stroke-width="1" fill="none" fill-rule="evenodd">
+        <path d="M14.0165769,8.03270652 L5.41664576,4.09117389 C4.91458085,3.86106679 4.32103817,4.08153216 4.09093107,4.58359706 C4.03101552,4.7143253 4,4.85643827 4,5.00024282 L4,12.883513 C4,13.4357978 4.44771525,13.883513 5,13.883513 C5.14381119,13.883513 5.28593056,13.8524946 5.41666366,13.7925737 L14.0165948,9.85083617 C14.5186552,9.62071918 14.7391088,9.02717216 14.5089919,8.52511179 C14.4091503,8.30728132 14.2344093,8.1325438 14.0165769,8.03270652 Z" id="Path-2" fill="#B1B5CA"></path>
+    </g>
+</g>
+
+</svg>
